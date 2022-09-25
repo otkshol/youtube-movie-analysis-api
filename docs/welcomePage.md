@@ -46,3 +46,6 @@
 - [MDN](https://developer.mozilla.org/ja/)
 - [実際に使っていて便利だと感じたアプリ、Chrome拡張、ターミナル拡張、VSCode拡張まとめ](https://qiita.com/nkato_/items/e902f84d5fc6a15a3796)
 - [VSCodeおすすめ設定大公開！！おすすめ拡張機能も](https://qiita.com/papi_tokei/items/c639dc7d1e0f5ad68a74)
+
+## トラブルシューティング
+- [Mybatisのエラー解消](https://yugr.hatenablog.com/entry/2017/11/27/130639)
