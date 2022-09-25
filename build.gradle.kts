@@ -23,6 +23,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.2")
     runtimeOnly("org.postgresql:postgresql")
+    testImplementation("org.dbunit:dbunit:2.7.3")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
