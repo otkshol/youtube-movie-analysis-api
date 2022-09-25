@@ -1,13 +1,23 @@
 package api.controller
 
-import org.springframework.web.bind.annotation.GetMapping
-import org.springframework.web.bind.annotation.RestController
+import api.model.Customer
+import api.service.CustomerService
+import org.springframework.web.bind.annotation.*
 
 @RestController
-class CustomerController {
+@RequestMapping("/customers")
+class CustomerController (val customerService: CustomerService){
 
     @GetMapping("/hello")
     fun hello(): String {
         return "Hello World";
+    }
+
+    @PostMapping
+    fun create(@RequestBody customer:Customer):Customer?{
+        println("customer")
+        println(customer.id)
+        println(customer.username)
+        return customerService.create(customer)
     }
 }
