@@ -11,5 +11,4 @@ data class Customer(
     val phoneNumber: String? = null,
 
     val postCode: String? = null,
-) {
-}
+)

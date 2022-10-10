@@ -9,11 +9,16 @@
     - [【備忘録】Spring Boot＋Postgres＋MyBatisでRESTfulなAPIを作成してCRUDする](https://zenn.dev/numacci/articles/202101_java_restapi-postgres)
 - Kotlin
 - [Mybatis](https://mybatis.org/mybatis-3/ja/index.html)
+  - [利用方法リファレンス](https://mybatis.org/mybatis-3/ja/sqlmap-xml.html)
 - postgresql
 - [schemaspy](https://schemaspy.org/)
     - [SchemaSpyでER図を生成する](https://zenn.dev/onozaty/articles/schema-spy-er)
 - [OPENAPI](https://swagger.io/specification/)
     - [OpenAPIとSwagger 入門](https://zenn.dev/chida/articles/25f4016560f6bf)
+- Stoplight
+- 
+- Flyway
+  - 
 
 ### 利用想定インフラ技術
 - [Docker]()
@@ -49,3 +54,4 @@
 
 ## トラブルシューティング
 - [Mybatisのエラー解消](https://yugr.hatenablog.com/entry/2017/11/27/130639)
+  - [同内容の記事](https://qiita.com/SSM3G/items/261fd2dde3c2b62ce566)
